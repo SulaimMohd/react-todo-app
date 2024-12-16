@@ -1,6 +1,7 @@
 import React from 'react';
 import CheckBox from './CheckBox';
 
+
 export default function TodoItem(props) {
     const {data, changeStatus} = props;
     const handleChange = (checked) => changeStatus(data.id, checked);
